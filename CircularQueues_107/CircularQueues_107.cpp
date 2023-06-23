@@ -87,3 +87,13 @@ public:
 				}
 
 				FRONT_position = 0;
+
+				// literasi dari awal array hingga REAR
+				while (FRONT_position <= REAR_position) {
+					cout << queve_array[FRONT_position] << "   ";
+					FRONT_position++;
+				}
+				cout << endl;
+			}
+		}
+	};
