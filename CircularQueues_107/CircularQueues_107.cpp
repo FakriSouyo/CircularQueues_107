@@ -62,3 +62,9 @@ public:
 	void display() {
 		int FRONT_position = FRONT;
 		int REAR_position = REAR;
+
+		//cek apakah antran kosong
+		if (FRONT == -1) {
+			cout << "Queve is empty\n";
+			return;
+		}
