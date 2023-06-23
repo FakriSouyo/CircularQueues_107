@@ -44,3 +44,10 @@ public:
 			return;
 		}
 		cout << "\nThe element deleted from the queve is: " << queve_array[FRONT] << "\M";
+
+		//Cek jika antrian hanya memiliki satu elemen
+		if (FRONT == REAR) {
+			FRONT = -1;
+			REAR = -1;
+		}
+		else {
