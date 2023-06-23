@@ -36,3 +36,11 @@ public:
 		}
 		queve_array[REAR] = num;
 	}
+
+	void remove() {
+		//Cek apakah antrian kosong
+		if (FRONT == -1) {
+			cout << " Queve Underflow\n";
+			return;
+		}
+		cout << "\nThe element deleted from the queve is: " << queve_array[FRONT] << "\M";
