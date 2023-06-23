@@ -79,3 +79,11 @@ public:
 			cout << endl;
 		}
 		else {
+			{
+				//Jika FRONT_position > RAER_position, literasi dari FRONT hingga akhir array
+				while (FRONT_position <= max - 1) {
+					cout << queve_array[FRONT_position] << "  ";
+					FRONT_position++;
+				}
+
+				FRONT_position = 0;
