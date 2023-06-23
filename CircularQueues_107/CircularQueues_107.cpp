@@ -70,3 +70,12 @@ public:
 		}
 
 		cout << "\nElements in the queve are..\n";
+		// Jika FRONT_posisition <= REAR_posisition, literasi dari Front hingga REAR
+		if (FRONT_position <= REAR_position) {
+			while (FRONT_position <= REAR_position) {
+				cout << queve_array[FRONT_position] << "  ";
+				FRONT_position++;
+			}
+			cout << endl;
+		}
+		else {
